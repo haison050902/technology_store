@@ -1,0 +1,94 @@
+.productHeader {
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAddProduct {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.productImgName {
+    display: flex;
+    align-items: center;
+}
+
+.productImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tdProduct {
+    width: 24vw;
+}
+
+.productName {
+    width: 250px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.outOfStock {
+    color: rgb(218, 71, 71);
+    font-weight: bold;
+}
+
+.inStock {
+    color: #57d45d;
+    font-weight: bold;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background-color: #d9d9d9;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.deleteProduct {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(233, 75, 75);
+}
+
+.action {
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}

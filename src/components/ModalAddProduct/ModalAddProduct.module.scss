@@ -1,0 +1,161 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+}
+
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #fff;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 1000px;
+    min-width: 50vw;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content select {
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+    text-align-last: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    background-color: red;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.modal-content input,
+.modal-content textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+}
+
+.deleteField {
+    background-color: rgb(247, 10, 10);
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.deleteField:hover {
+    background-color: rgba(136, 30, 30, 0.925);
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.deleteField a {
+    color: #fff;
+}
+
+.addProduct,
+.addField,
+.cancelAddProduct {
+    padding: 8px 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.addProduct:hover,
+.addField:hover,
+.cancelAddProduct:hover {
+    padding: 8px 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #fff;
+}
+
+.addField {
+    background-color: rgb(127, 178, 255);
+}
+
+.addField:hover {
+    background-color: rgb(58, 93, 145);
+}
+
+.cancelAddProduct {
+    background-color: rgb(255, 0, 0);
+}
+
+.cancelAddProduct:hover {
+    background-color: rgb(143, 2, 2);
+}
+
+.addProduct {
+    background-color: rgb(0, 255, 149);
+}
+
+.addProduct:hover {
+    background-color: rgb(41, 133, 61);
+}

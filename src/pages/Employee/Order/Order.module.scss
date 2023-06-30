@@ -1,0 +1,175 @@
+.content {
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productHeader {
+    margin: 50px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-table {
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #d9d9d9;
+}
+
+.productImgName {
+    display: flex;
+    align-items: center;
+}
+
+.productImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tdProduct {
+    width: 24vw;
+}
+
+.productName {
+    width: 250px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.content-table thead tr {
+    background-color: #d9d9d9;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.addToOrder {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+// order details
+
+.orderDetails {
+    width: 30vw;
+}
+
+.orderContainer {
+    background-color: #f1f1f1;
+    border-radius: 12px;
+}
+
+.orderContent {
+    padding: 30px;
+}
+
+.orderEmployee {
+    font-size: 20px;
+}
+
+.orderEmployee h3 {
+    margin-right: 50px;
+}
+
+.nameProduct {
+    margin: 12px 0;
+}
+
+.minusQuantity,
+.plusQuantity {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.quantityProduct {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.deleteOrderProduct {
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.borderBT {
+    border-bottom: #000000 solid 2px;
+}
+
+.gridDiscounts,
+.gridTotal {
+    background-color: #aaa7a7;
+    border-radius: 8px;
+}
+
+.discounts {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.inputDiscount {
+    width: 60%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.gridTotal {
+    margin-top: 2px;
+}
+
+.total {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.totalPrice {
+    color: red;
+}
+
+.submitOrder {
+    background-color: #000000;
+    color: #fff;
+    margin-top: 2px;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}

@@ -1,0 +1,176 @@
+.content {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.content-table {
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #d9d9d9;
+}
+
+.productImgName {
+    display: flex;
+    align-items: center;
+}
+
+.productImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tdProduct {
+    width: 24vw;
+}
+
+.productName {
+    width: 250px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.action {
+    font-size: 30px;
+}
+
+.priceProduct {
+    font-weight: bold;
+}
+
+.orderDetails {
+    width: 30%;
+    margin-right: 2vw;
+}
+
+.orderDetailsContent {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.topOrderDetails {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 16px 16px 0 0;
+}
+
+.orderEmployee {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.orderEmployee span {
+    margin-left: 10px;
+}
+
+.orderDate {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.orderDate span {
+    margin-left: 10px;
+}
+
+.bodyOrderDetails {
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.discountOrder {
+    display: flex;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
+    justify-content: space-between;
+}
+
+.discountOrder input {
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.totalPrice {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.totalPrice span {
+    color: red;
+    font-weight: bold;
+}
+
+.bottomOrderDetails {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0 0 16px 16px;
+}
+
+.trBottomOrderDetails {
+    border-bottom: 2px solid #ccc;
+}
+
+.tableOrderDetails {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.tableOrderDetails td {
+    padding: 6px 12px;
+    align-items: center;
+}
+
+.tableOrderDetails tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editQuantity {
+    font-size: 20px;
+    display: flex;
+}
+
+.editQuantity .minus {
+    margin-right: 10px;
+}
+
+.editQuantity .plus {
+    margin-left: 10px;
+}
+
+.orderNameProduct {
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+const routes = {
+    home: '/',
+    product_categoty: '/products/:categoryName',
+    products: '/products',
+    about: '/about',
+    product_detail: '/detail/:id',
+    history: '/history/:id',
+    cart: '/cart/:id',
+    profile: '/profile/:id',
+    shipping: '/shipping',
+    dashboard: '/dashboard',
+    login: '/login',
+    register: '/register',
+    employee: '/employee',
+    customer: '/customer',
+    product: '/product',
+    // order: '/order',
+    invoice: '/invoice',
+    warehouse: '/warehouse',
+    report: '/report',
+    logout: '/logout',
+    order: '/order',
+    customercare: '/customercare',
+    orderlist: '/orderlist',
+};
+
+export default routes;

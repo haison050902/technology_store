@@ -1,0 +1,40 @@
+.wrapper {
+    width: 20%;
+    padding: 20px 0 26px 8px;
+}
+
+.logo {
+    text-align: center;
+    font-weight: 700;
+}
+
+.wrapper {
+    background: #d9d9d9;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    display: flex;
+    font-weight: 700;
+    margin: 4px 6px 0 0;
+    padding: 10px 16px;
+}
+
+.icon {
+    font-size: 32px;
+    margin-right: 8px;
+}
+
+.link_text {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content:hover {
+    background: #a3a3a3;
+    border-radius: 12px;
+}
